@@ -1,10 +1,47 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
 *{
+    font-family: 'Inter',sans-serif;
     margin:0;
     padding: 0;
     color: white ;
 
 }
 body{
-    background: rgb(36,60,172);
-    background: linear-gradient(90deg, rgba(36,60,172,1) 11%, rgba(255,25,0,0.6702031154258579) 93%);
+    /* background: rgb(36,60,172); */
+    background: linear-gradient(135deg, #DA43F5 0%, #8B9AB2 100%);;
+}
+#titulo-formulario{
+    text-align: center;
+    font-weight: 600px;
+    font-size: 36px;
+}
+.card-formulario{
+    margin: 45px auto;
+    width: 60rem;
+    padding: 25px 50px 50px 50px;
+    background: linear-gradient(334.09deg, rgba(218, 67, 245, 0) 2.6%, rgba(245, 245, 245, 0.63) 98.47%);
+    backdrop-filter: blur(50px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 60px;
+    transform: rotate(0deg);
+}
+
+.inputs{
+    margin-bottom: 19px;
+    color:#9B7E7E;;
+}
+#botao-enviar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #BD79C9;
+    border-radius: 5px;
+    border: 1px solid #F0F1F5;;
 }
