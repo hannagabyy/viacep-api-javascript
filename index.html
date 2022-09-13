@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    
-    <!-- CSS only -->
+    <script src="https://kit.fontawesome.com/50cab0d7de.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
@@ -20,41 +19,68 @@
         
         <h2 id ="titulo-formulario" class="h5 mx-auto mt-4" style="width: 400px;">Formulário de cadastro</h2>
         <form action="">
-
             <div class="form container-md">
                 <div class="mb-3">
+                    
                     <label for="nome" class="form-label">Nome</label>
-                    <input class="inputs form-control" type="text" id="nome" placeholder="Nome">
-                
+                    <div class="icones-input">
+                        <img src="./imagens/nome.png" alt="">
+                        <input class="inputs form-control" type="text" id="nome" placeholder="Nome Completo">
+                    </div>
+                    
                     <label class="form-label" for="email">Email</label>
-                    <input class="inputs form-control" type="email" id="email" placeholder="user@email.com">
-            
+                    <div class="icones-input">
+                        <img src="./imagens/email.png" alt="">
+                        <input class="inputs form-control" type="email" id="email" placeholder="seuemail@gmail.com">
+                    </div>
+
                     <div class="row">
                         <div class="col">
                             <label class="form-label" for="cep">Cep</label>
-                            <input class="inputs form-control" type="text" id="cep" placeholder="99999-999">
+                            <div class="icones-input">
+                                <img src="./imagens/cep.png" alt="">
+                                <input class="inputs form-control" type="text" id="cep" placeholder="99999-999">
+                            </div>
+                            
                         </div>
+                        
                         <div class="col">
-                            <label  class="form-label" for="endereco">Endereço</label>
-                            <input class="v form-control" type="text" id="endereco">
+                            <label  class="form-label" for="endereco">Endereço</label> 
+                            <div class="icones-input">
+                                <img src="./imagens/endereco.png" alt="">
+                                <input class="inputs form-control" type="text" id="endereco" placeholder="Rua Nogueira Pires">
+                            </div>    
                         </div>
                     </div>
 
-                
-                    <label class="form-label" for="numero">Número</label>
-                    <input class="inputs form-control" type="text" id="numero">
+                    <label class="form-label" for="numero">Complemento</label>
+                    <div class="icones-input">
+                        <img src="./imagens/complemento.png" alt="">
+                        <input class="inputs form-control" type="text" id="numero" placeholder="Quadra 9 casa 1 A">
+                    </div>
 
                     <label class="form-label" for="bairro">Bairro</label>
-                    <input class="inputs form-control" type="text" id="bairro">
+                    <div class="icones-input">
+                        <img src="./imagens/bairro.png" alt="">
+                        <input class="inputs form-control" type="text" id="bairro" placeholder="Bairro Colorado">
+                    </div>
+
+                  
                     <div class="row">
                         <div class="col">
                             <label  class="form-label" for="cidade">Cidade</label>
-                            <input class="inputs form-control" type="text" id="cidade">
+                                <div class="icones-input">
+                                    <img src="./imagens/cidade.png" alt="">
+                                    <input class="inputs form-control" type="text" id="cidade" placeholder="Teresina">
+                                </div>
                         </div>
 
                         <div class="col">
                             <label class="form-label" for="estado">Estado</label>
-                            <input class="inputs form-control" type="text" id="estado">
+                                <div class="icones-input">
+                                    <img src="./imagens/estado.png" alt="">
+                                    <input class="inputs form-control" type="text" id="estado" placeholder="PI">
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -62,7 +88,7 @@
             </div>
         
         </form>
-            
+        
     </div>
 </div>
 <script src="./js/main.js"></script>
