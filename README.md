@@ -19,5 +19,5 @@
 ![image](https://user-images.githubusercontent.com/48922227/189780728-32d68ff0-36c5-4c40-b5ad-887e0c5ea885.png)
 
 
--Desenvolvido por : Hanna Santos
--Design Feito por: Arielle Kellen
+- Desenvolvido por : Hanna Santos
+- Design Feito por: Arielle Kellen
