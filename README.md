@@ -20,4 +20,4 @@
 
 
 - Desenvolvido por : Hanna Santos
-- Design Feito por: Arielle Kellen
+- Design Feito por: Arielle Sousa
